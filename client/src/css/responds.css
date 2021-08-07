@@ -1,0 +1,138 @@
+.respond {
+  color: rgb(95, 95, 95);
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.1vw;
+  padding: 2%;
+  width: -moz-fit-content;
+  width: 80%;
+  border-bottom: 1px solid #969696;
+  text-align: right;
+}
+
+.modal-body {
+  position: relative;
+  padding: 3%;
+  margin: 2%;
+}
+
+.butn{
+    background-color:#008c96;
+    color:#fff;
+    border:none;
+    margin: 2%;
+    position:relative;
+    font-size: 1.2vw;
+    padding:1em 1em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    font-weight: bold;
+  }
+
+  .add-res {
+    text-align: center;
+    margin-right: 45%;
+  }
+
+  .butn:hover{
+    background-color:#fff;
+    color:#000000;
+  }
+
+  .butn:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background-color: #1AAB8A;
+    transition:400ms ease all;
+  }
+
+  .butn:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+
+  .butn:hover:before,.butn:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+  .not-now {
+      background-color: white;
+      color: black;
+  }
+
+  .area {
+    font-size: 1.2vw;
+    min-height: 5vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 0;
+  }
+
+  .res {
+      margin-top: 5%;
+  }
+
+  .area:focus{
+      box-shadow:none;
+      border-bottom: 2px solid rgb(209, 0, 157);
+      background-color: rgb(233, 233, 233);
+  }
+
+  .name-res {
+     font-size: 1.2vw;
+     padding: 4% 3%;
+     border-top: none;
+     border-right: none;
+     border-left: none;
+     width: 100%;
+     min-width: 27em;
+     border-radius: 0;
+    margin-bottom: 5%;
+  }
+
+  .form-group::placeholder {
+    font-size: 1.2vw;
+  }
+  
+  .name-res:focus{
+    box-shadow:none;
+    border-bottom: 2px solid rgb(209, 0, 157);
+    background-color: rgb(233, 233, 233);
+}
+
+.res-title {
+  color: #000000;
+  font-size: 1.5vw;
+}
+
+.respond-det {
+  padding-bottom: 1%;
+  padding-top: 1%;
+  padding-right: 1%;
+}
+
+.respond-name {
+  color: #000000;
+  font-weight: bolder;
+  vertical-align: super;
+}
+
+.fill-all-fields {
+  color: red;
+  padding-right: 10% ;
+}
+
+.profile {
+  position: sticky;
+}

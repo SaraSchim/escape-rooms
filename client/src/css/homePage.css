@@ -1,0 +1,94 @@
+.details {
+    top: 0;
+}
+
+.home {
+    padding-top: 10%;
+    text-align: center;
+    padding-bottom: 20%;
+}
+
+.image {
+  margin-left: 50%;
+  width: 25%;
+  display: inline-block;
+}
+
+.door-img  {
+  transition: opacity 1s;
+}
+
+.order-now{
+  background-color:#008c96;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:10%;
+  font-size:2vw;
+  padding:1%;
+  margin-top: 10%;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+    text-align: center;
+    font-weight: bold;
+  margin-right: 45%;
+}
+
+.order-now:hover{
+  background-color:#fff;
+  color:#000000;
+}
+
+.order-now:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background-color: #1AAB8A;
+  transition:400ms ease all;
+}
+
+.order-now:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+
+.order-now:hover:before,.butn:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+.lock-text {
+  position: absolute;
+  font-size: 1.5vw;
+  padding: auto;
+  margin-right:10%;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 0, 242), 0 0 5px rgb(255, 0, 234);
+}
+
+.lock-img {
+  position: absolute;
+  display: block;
+  margin-top: -12%;
+  width: 50%;
+}
+
+.door-img {
+  right: 0;
+  position: absolute;
+  margin-top: -14%;
+  width: 100%;
+  max-height: 45vw;
+  height: 45vw;
+  image-orientation: from-image;
+}
+
+.show-orders {
+  width: max-content;
+  font-size: 1.7vw;
+}

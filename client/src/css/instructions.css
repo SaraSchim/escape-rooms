@@ -1,0 +1,39 @@
+.instruct {
+    margin-bottom: 100px;
+    margin-top: 10%;
+    font-size: 1.2vw;
+}
+
+.glow {
+    font-size: 1.7vw;
+    text-shadow: 1px 1px 1px black, 0 0 25px rgb(0, 204, 255), 0 0 5px rgb(0, 217, 255);
+}
+
+.title {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid rgb(3, 180, 224);
+    border-top: 2px solid rgb(3, 180, 224);
+}
+
+.text {
+    margin-left: 15%;
+    text-align: center;
+    margin-right: 15%;
+    line-height: 200%;
+    color: rgb(231, 228, 228);
+}
+
+.lis {
+    list-style: none;
+    text-align: center;
+}
+
+.order-now {
+    margin-left: 40%;
+}

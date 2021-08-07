@@ -1,0 +1,17 @@
+.kit-contact {
+    display: inline-block;
+    padding: 2%;
+    font-size: 1.7vw;
+    line-height: 200%;
+    vertical-align: top;
+    margin-top: 7%;
+}
+
+.map {
+    display: inline-block;
+    padding: 5%;
+}
+
+.contact {
+    margin-right: 10%;
+}

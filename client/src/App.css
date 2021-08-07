@@ -1,0 +1,181 @@
+*{
+  direction: rtl;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+h2 {
+  font-size: 2.5vw;
+}
+
+h3 {
+  font-size: 2vw;
+}
+
+body {
+  background-color: black;
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    background-size:  100%; 
+    color: white;
+}
+
+.logo {
+  position: absolute;
+  height: 10%;
+  margin-right: 40%;
+}
+
+.nav {
+  margin-bottom: 5%;
+}
+
+.li {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.2vw;
+}
+
+.link:hover:not(:focus){
+  border-bottom: 3px solid rgb(146, 0, 90);
+  cursor: pointer;
+}
+
+.link:focus{
+  border-bottom: 3px solid rgb(146, 0, 90);
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+}
+
+.link:link {
+  text-decoration: none;
+}
+
+.man-link {
+  left: 0;
+  top: 0;
+  margin-top: 2%;
+  margin-left: 2%;
+  padding: 7px 15px;
+  border-radius: 50px;
+  position: absolute;
+  font-size: 1vw;
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  border: 1px solid rgb(71, 65, 65);
+  letter-spacing: 1px;
+}
+
+.man-link:hover {
+  border-bottom: none;
+  opacity: 0.5;
+  text-decoration: none;
+  color: white;
+}
+
+.man-link:link {
+  text-decoration: none;
+}
+
+.man-link:focus {
+  text-decoration: none;
+  color: white;
+}
+
+button:focus {
+  outline: 0;
+}
+
+span:focus {
+  outline: 0;
+}
+
+input:focus {
+  outline: 0;
+}
+
+.kit {
+  display: inline-block;
+  position: absolute;
+  margin: 10% 50%;
+line-height: 200%;
+letter-spacing: 2px;
+bottom: 0;
+font-size: 1.2vw;
+width: max-content;
+color: white;
+}
+
+.kit-link {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+.kit-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+.kit-link:focus {
+  color: rgb(255, 255, 255);
+}
+
+.btm-link:link {
+  text-decoration: none;
+}
+
+.btm-link:hover {
+  opacity: 0.5;
+}
+
+.btm-li {
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1vw;
+}
+
+.bottom{
+  margin-top: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgb(0, 9, 20);
+  bottom: 0;
+  margin-bottom: -10%;
+  width: 100%;
+}
+
+.bottom-list {
+  list-style-type: none;
+  font-size: 0.7vw;
+  display: flex;
+  bottom: 0;
+}
+
+.bottom-nav {
+  display: flex;
+  text-align: center;
+  margin-right: 35%;
+}
+
+.rcw-widget-container{
+  height: fit-content !important;
+  width: fit-content !important;
+}
+
+.all-rights-reserved {
+  text-align: center;
+  padding-top: 2%;
+}
+
+

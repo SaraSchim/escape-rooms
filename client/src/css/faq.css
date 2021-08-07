@@ -1,0 +1,32 @@
+.faq-row-wrapper {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.faq-row {
+    margin-bottom: 2%;
+}
+
+.row-title {
+    font-weight: bolder;
+}
+
+.row-content {
+    line-height: 2;
+    letter-spacing: 2;
+}
+
+.row-content-text {
+    text-align: right;
+}
+
+.main-title {
+    text-align: right;
+    margin-top: 5%;
+    margin-right: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    text-shadow: 1px 1px 1px black, 0 0 25px rgb(0, 204, 255), 0 0 5px rgb(0, 217, 255);
+    color: white;
+    font-size: 2vw ;
+}            

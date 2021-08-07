@@ -1,0 +1,79 @@
+.formQst {
+    background-color: rgb(0, 0, 0, 0.5);
+    max-width: 40%;
+    margin: auto;
+    padding: 2% 5% ;
+    margin-top: 20%;
+    border: 1px solid rgb(0, 197, 211);
+    border-radius: 20px;
+    margin-bottom: 10%;
+}
+
+.title-qst {
+    margin-top: 3px;
+    padding-top: 3px;
+    text-align: center;
+}
+
+.inputQst {
+    padding:10px;
+    border: solid 0.2px rgb(236, 236, 236);
+    display: block;
+    margin: 20px auto ;
+    width: 90%;
+    background-color: transparent;
+    border-radius: 5;
+}
+
+.inputQst::placeholder {
+  color: rgb(255, 255, 255);
+  font-size: 1.1vw;
+  font-weight: bold;
+}
+
+.areaQst {
+    max-width: 90%;
+    min-width: 90%;
+    height: 100px;
+    min-height: 100px;
+}
+
+  .inputQst:focus {
+      outline: 0;
+      background-color: rgba(46, 45, 45, 0.5);
+  }
+
+  .btnQst {
+      margin-right: 40%;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 32px;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0, 0.1);
+    font-size: 1vw;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+
+  .btnQst[disabled=false]:hover {
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 30px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .btnQst:disabled {
+    opacity: 0.5;
+}
+
+  .btnQst:focus {
+      outline: 0;
+  }
+
+  .icon-qst {
+      position: absolute;
+      right: 33%;
+      margin-top: 0.5%;
+  }
+
+  .invalid-input {
+    border-color: red;
+  }
+

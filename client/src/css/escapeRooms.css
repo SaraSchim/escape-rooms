@@ -1,0 +1,99 @@
+.choose {
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+}
+
+.room-list {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  justify-content: space-around; 
+}
+
+.top-room {
+    position: relative;
+}
+
+.tag {
+    font-size: 1vw;
+    background: rgb(255, 0, 0);
+    padding: 1px 10px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+  top: 8%;
+  left: 0;
+  margin-left: -5%;
+}
+
+.text-room {
+    padding: 4%;
+    text-align: center;
+}
+
+.room-type {
+    margin-bottom: 5%;
+}
+
+.room {
+    width: 25%;
+    min-width: min-content;
+    height: 20%;
+    font-size: 2vw;
+    color: white;
+    -webkit-transition-duration: 0.4s;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.room-link {
+    border: 1px solid rgb(20, 112, 148);
+    margin-top: 5%;
+    box-shadow:  41px 41px 98px #4e1135,
+    -41px -41px 98px #6a1747;
+}
+
+.room-link:link {
+    text-decoration: none;
+}
+
+.room-link:hover {
+    background-color:  rgb(20, 112, 148);
+    border: 1px solid rgb(20, 112, 148);
+}
+
+
+.price {
+    font-size: 1.05vw;
+    font-weight: bolder;
+    padding-bottom: 2%;
+    word-spacing: 2;
+    display: block;
+}
+
+.about-room {
+    font-size: 1vw;
+    color: rgb(0, 0, 0);
+}
+
+.world-img {
+    padding: 0;
+    vertical-align: inherit;
+    max-width: 100%;
+}
+
+.bottom-room {
+    text-align: center;
+    font-size: 1vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2%;
+    margin-top: 10%;
+    transition: font-size 0.3s;
+  cursor: pointer;
+}
+
+.bottom-room:hover {
+    font-size: 1.2vw;
+    opacity: 0.9;
+}
