@@ -11,7 +11,7 @@ At the bottom of the site there is a question asking form. The form can be fille
 
 The site is connected to a database on the mongoDB site, reads the data from it and updates it with every order and change.
 
-## Instructions for running the site:
+### Instructions for running the site:
 
 Open a terminal in the client folder and a terminal in the server folder at the same time
 
