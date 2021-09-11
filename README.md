@@ -24,3 +24,7 @@ In each terminal individually run "npm install"
 In the client terminal run npm start
 
 In the server terminal run npm run dev
+
+### Demo:
+
+![20210911_224812 00_00_00-00_01_44 00_00_00-00_00_30](https://user-images.githubusercontent.com/86181976/132962029-b123a0af-bdc5-4b3d-b4ca-6d96559166fb.gif)
